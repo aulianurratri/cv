@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import profil from "@/public/aul.jpg";
+import profil from "@/public/aulia.jpg";
 const Home = () => {
   return (
     <div className="min-h-screen bg-gray-900 text-white font-sans flex flex-col items-center py-10">
