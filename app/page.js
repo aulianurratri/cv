@@ -1,12 +1,13 @@
 import React from "react";
-
+import Image from "next/image";
+import profil from "@/public/aul.JPG";
 const Home = () => {
   return (
     <div className="min-h-screen bg-gray-900 text-white font-sans flex flex-col items-center py-10">
       {/* About Section */}
       <section className="p-10 text-center bg-white text-gray-900 shadow-xl rounded-lg w-11/12 max-w-3xl mb-10">
-        <img
-          src="/aul.jpg"
+        <Image
+          src={profil} 
           alt="Profile"
           className="w-32 h-32 rounded-full mx-auto border-4 border-blue-500 shadow-lg"
         />
